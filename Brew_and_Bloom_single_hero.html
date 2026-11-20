@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brew &amp; Bloom Café</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Brew &amp; Bloom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="position-relative">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80"
+         class="d-block w-100" style="height:480px; object-fit:cover;" alt="Cup of coffee">
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3">
+      <h1 class="display-4">Welcome to Brew &amp; Bloom</h1>
+      <p class="lead">Fresh coffee, warm pastries, cozy seats.</p>
+      <a href="#menu" class="btn btn-light btn-lg">View Menu</a>
+    </div>
+  </header>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <h3 class="h5">Fresh Roasted</h3>
+          <p class="mb-0">Beans roasted in-house every morning.</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5">Baked Daily</h3>
+          <p class="mb-0">Pastries and cakes made from scratch.</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h5">Free Wi-Fi</h3>
+          <p class="mb-0">Work, study or just browse.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <h2 class="mb-3">About Us</h2>
+          <p>We roast our coffee in-house every morning and bake our pastries fresh each day. Come in, relax and enjoy a cup with us.</p>
+          <p>Whether you're here for a quick espresso or a long afternoon with a book, there's always a table waiting for you.</p>
+          <span class="badge bg-dark">Since 2018</span>
+          <span class="badge bg-secondary">Locally sourced</span>
+          <span class="badge bg-secondary">Vegetarian friendly</span>
+        </div>
+        <div class="col-md-6">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80"
+               class="img-fluid rounded" alt="Barista making coffee">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Menu</h2>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=600&q=80" class="card-img-top" style="height:170px; object-fit:cover;" alt="Espresso">
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <p class="card-text">Rich and bold.</p>
+              <p class="fw-bold mb-0">₹150</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" class="card-img-top" style="height:170px; object-fit:cover;" alt="Latte">
+            <div class="card-body">
+              <h5 class="card-title">Latte</h5>
+              <p class="card-text">Smooth espresso with steamed milk.</p>
+              <p class="fw-bold mb-0">₹200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" class="card-img-top" style="height:170px; object-fit:cover;" alt="Croissant">
+            <div class="card-body">
+              <h5 class="card-title">Croissant</h5>
+              <p class="card-text">Buttery and freshly baked.</p>
+              <p class="fw-bold mb-0">₹180</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" class="card-img-top" style="height:170px; object-fit:cover;" alt="Chocolate cake">
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Cake</h5>
+              <p class="card-text">Rich dark chocolate layers.</p>
+              <p class="fw-bold mb-0">₹250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Gallery</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4"><img class="img-fluid rounded w-100" style="height:220px; object-fit:cover;" alt="Coffee beans" src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=600&q=80"></div>
+        <div class="col-6 col-md-4"><img class="img-fluid rounded w-100" style="height:220px; object-fit:cover;" alt="Coffee cup" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"></div>
+        <div class="col-6 col-md-4"><img class="img-fluid rounded w-100" style="height:220px; object-fit:cover;" alt="Cozy seating" src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=600&q=80"></div>
+        <div class="col-6 col-md-4"><img class="img-fluid rounded w-100" style="height:220px; object-fit:cover;" alt="Cafe counter" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&q=80"></div>
+        <div class="col-6 col-md-4"><img class="img-fluid rounded w-100" style="height:220px; object-fit:cover;" alt="Pastries" src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=600&q=80"></div>
+        <div class="col-6 col-md-4"><img class="img-fluid rounded w-100" style="height:220px; object-fit:cover;" alt="Latte art" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Watch</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h5>A look inside our cafe</h5>
+    
+          <div class="ratio ratio-16x9">
+            <video controls poster="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80">
+              <source src="" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5> <b>How we make our coffee</b></h5>
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/fN_iiDCxjPo" title="Coffee video" allowfullscreen></iframe>
+          </div>
+          <small class="text-muted">How we make our latte art.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h2 class="mb-3">Opening Hours</h2>
+          <table class="table table-striped">
+            <tbody>
+              <tr><td>Monday – Friday</td><td>7:30 AM – 10:00 PM</td></tr>
+              <tr><td>Saturday</td><td>8:00 AM – 11:00 PM</td></tr>
+              <tr><td>Sunday</td><td>8:00 AM – 10:00 PM</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Today's Special</h2>
+          <div class="alert alert-secondary mb-3">
+            <strong>Caramel Latte + Croissant</strong> combo for just ₹320.
+          </div>
+          <div class="progress mb-1" style="height:20px;">
+            <div class="progress-bar bg-dark" style="width:70%">70% sold</div>
+          </div>
+          <small class="text-muted">Limited quantity each day.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">What Guests Say</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card h-100"><div class="card-body">
+            <p class="card-text">"The best flat white in town, and the croissants are unreal."</p>
+            <p class="text-muted mb-0">— Hardik U.</p>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100"><div class="card-body">
+            <p class="card-text">"My go-to spot for work. Great Wi-Fi, even better coffee."</p>
+            <p class="text-muted mb-0">— Viraj P.</p>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100"><div class="card-body">
+            <p class="card-text">"Cozy, friendly and the chocolate cake is a must-try."</p>
+            <p class="text-muted mb-0">— Vinay B.</p>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">FAQ</h2>
+      <div class="accordion" id="faqList">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Do you have vegan options?</button>
+          </h3>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqList">
+            <div class="accordion-body">Yes, we offer oat and almond milk, plus a few vegan pastries.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Can I book a table?</button>
+          </h3>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">Yes, just call us or fill in the form below.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Is there parking?</button>
+          </h3>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">Street parking is available right outside the cafe.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Contact</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <p class="mb-1">Near Vnit Gate,IT Park, Nagpur</p>
+          <p class="mb-1">+91 98765 43210</p>
+          <p class="mb-4">Open daily, 8 AM – 10 PM</p>
+
+          <form onsubmit="event.preventDefault(); alert('Thanks! We will get back to you soon.'); this.reset();">
+            <div class="mb-3"><input type="text" class="form-control" placeholder="Your name" required></div>
+            <div class="mb-3"><input type="email" class="form-control" placeholder="Your email" required></div>
+            <div class="mb-3"><textarea class="form-control" rows="3" placeholder="Message"></textarea></div>
+            <button class="btn btn-dark">Send</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="ratio ratio-4x3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1505.697740793262!2d79.05242425884369!3d21.12185338826327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1795116288197!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <small>© 2026 Brew &amp; Bloom Café</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

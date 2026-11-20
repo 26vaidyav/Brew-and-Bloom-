@@ -1,3 +1,2 @@
 # Brew-and-Bloom-
-
-By  Vinay Badera
+contributors:Vinay Badera

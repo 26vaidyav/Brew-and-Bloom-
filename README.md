@@ -1,3 +1,3 @@
 # Brew-and-Bloom-
-contributors:Vinay Badera
-contributors: Hardik Upase  
+Contributors:Vinay Badera
+Contributors: Hardik Upase  
